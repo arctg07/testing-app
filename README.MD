@@ -1,1 +1,1 @@
-запуск с помощью команды docker-compose up
+start by command -  docker-compose up
