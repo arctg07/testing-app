@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: testing-app
+
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://db:5432/public
+#    url: jdbc:postgresql://localhost:5432/testing
+    username: postgres
+    password: postgres
+
+  flyway:
+    schemas: public
+    user: postgres
+    password: postgres
